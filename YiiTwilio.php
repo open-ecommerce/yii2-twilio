@@ -1,6 +1,6 @@
 <?php
 
-namespace open-ecommerce\yiitwilio;
+namespace openecommerce\yiitwilio;
 
 use yii\base\Component;
 use \Services_Twilio;

@@ -1,5 +1,5 @@
 {
-    "name": "filipajdacic/yii2-twilio",
+    "name": "open-ecommerce/yii2-twilio",
     "description": "This component is YII2 wrapper for Twilio PHP module",
     "type": "library",
     "keywords": ["yii2","extension","twillio","sms","voice","video"],
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "open-ecommerce\\yiitwilio\\": ""
+            "openecommerce\\yiitwilio\\": ""
         }
     }
 }
