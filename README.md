@@ -31,11 +31,11 @@ Once the extension is installed, simply use it in your code by putting this in y
 ```php
 'components' => array(
     ...
-    'Yii2Twilio' => [
-        'class' => 'open-ecommerce\yiitwilio\YiiTwilio',
-        'account_sid' => 'YOUR_TWILIO_ACCOUNT_SID_HERE',
-        'auth_key' => 'YOUR_TWILIO_AUTH_KEY_HERE',
-    ],
+    'Yii2Twilio' => array(
+        'class' => 'openecommerce\yiitwilio\YiiTwilio',
+        'account_sid' => getenv('TWILIO_ACCOUNT_SID'),
+        'auth_key' => getenv('TWILIO_AUTH_KEY'),
+    ),
     ...
 );
 ```
