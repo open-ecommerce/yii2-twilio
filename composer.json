@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "filipajdacic\\yiitwilio\\": ""
+            "open-ecommerce\\yiitwilio\\": ""
         }
     }
 }

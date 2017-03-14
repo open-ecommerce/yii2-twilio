@@ -1,6 +1,8 @@
 Twilio for Yii2
 ================
 This component is YII2 wrapper for Twilio PHP SDK.
+forked and updated from filipajdacic
+
 
 Installation
 ------------
@@ -10,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist filipajdacic/yii2-twilio "master@dev"
+php composer.phar require --prefer-dist open-ecommerce/yii2-twilio "master@dev"
 ```
 
 or add
 
 ```
-"filipajdacic/yii2-twilio": "master@dev"
+"open-ecommerce/yii2-twilio": "master@dev"
 ```
 
 to the require section of your `composer.json` file.
@@ -30,9 +32,9 @@ Once the extension is installed, simply use it in your code by putting this in y
 'components' => array(
     ...
     'Yii2Twilio' => [
-        'class' => 'filipajdacic\yiitwilio\YiiTwilio',
+        'class' => 'open-ecommerce\yiitwilio\YiiTwilio',
         'account_sid' => 'YOUR_TWILIO_ACCOUNT_SID_HERE',
-        'auth_key' => 'YOUR_TWILIO_AUTH_KEY_HERE', 
+        'auth_key' => 'YOUR_TWILIO_AUTH_KEY_HERE',
     ],
     ...
 );
